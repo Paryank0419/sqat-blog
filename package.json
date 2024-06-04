@@ -16,5 +16,8 @@
     "marked": "^0.3.6",
     "moment": "^2.18.1",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "globals": "^15.3.0"
   }
 }

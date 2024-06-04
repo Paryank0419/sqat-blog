@@ -17,7 +17,7 @@ db.serialize(function () {
   db.run("CREATE TABLE users (id INT, name TEXT)");
 });
 
-// Then, you can use these libraries somewhere in your code. For example:
+
 app.get("/lodash", function (req, res) {
   let array = [1];
   let other = _.concat(array, 2, [3], [[4]]);
